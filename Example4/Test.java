@@ -1,10 +1,13 @@
 public class Test {
-    static int a = 101;
-    static int b;
     public static void main(String[] args) {
-        System.out.println(b);
-        Test t1 = new Test();
-        t1.b = 38;
-        System.out.println(t1.a + t1.b);
+        /* int a = 5;
+        if (a < 2) {
+            System.out.println("Given number is greater: " + a);
+        } */
+
+        int num = 9;
+        if (num % 2 == 0) {
+            System.out.println("given number is even number: " + num);
+        }
     }
 }
